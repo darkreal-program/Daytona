@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daytona — детейлинг в Коломне</title>
+  <meta name="description" content="Детейлинг, автохимчистка и оклейка автомобилей. Мойка, полировка, керамика, химчистка салона, шумоизоляция, антигравийная плёнка, тонирование.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;700&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="topbar__logo" href="#top" aria-label="Daytona — наверх">Daytona</a>
+    <a class="call" href="tel:+79999900433">
+      <svg class="call__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      <span class="call__label">Позвонить</span>
+      <span class="call__number">+7 (999) 990-04-33</span>
+    </a>
+  </header>
+
+  <main id="top">
+    <!-- Hero: hexagonal studio light above, its reflection in lacquer below -->
+    <section class="hero" aria-labelledby="brand">
+      <canvas class="hero__lights" id="ceiling" aria-hidden="true"></canvas>
+      <canvas class="hero__lights hero__lights--reflection" id="floor" aria-hidden="true"></canvas>
+
+      <div class="hero__content">
+        <h1 id="brand" class="brand">Daytona</h1>
+        <p class="tagline">Детейлинг, автохимчистка и оклейка машин</p>
+      </div>
+
+      <a class="hero__scroll" href="#services">Услуги и цены</a>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 class="section-title" id="services-title">Услуги и цены</h2>
+
+        <div class="group">
+          <h3 class="group__title">Мойка</h3>
+          <ul class="list">
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Детейлинг мойка</h4>
+                <span class="item__price">3 000 ₽</span>
+              </div>
+              <p class="item__text">Тщательная мойка кузова профессиональными составами в&nbsp;3&nbsp;этапа. Сначала автомобиль обрабатывается бесконтактным шампунем, а&nbsp;на&nbsp;колёса наносится специальный состав. После ополаскивания наносится другой состав, и&nbsp;детейлер намывает кузов вручную. В&nbsp;конце машину ополаскивают и&nbsp;сушат.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Детейлинг мойка колёс с&nbsp;демонтажем</h4>
+                <span class="item__price">1 500 ₽ <small>за колесо</small></span>
+              </div>
+              <p class="item__text">В&nbsp;стоимость входит снятие и&nbsp;установка колеса, детейлинг мойка и&nbsp;удаление загрязнений от&nbsp;старых грузов.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Детейлинг мойка мотоцикла</h4>
+                <span class="item__price">2 000 ₽</span>
+              </div>
+              <p class="item__text">Тщательная мойка всех элементов мотоцикла, частичное удаление битума, сушка тёплым воздухом.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Детейлинг мойка водной техники</h4>
+                <span class="item__price">3 500 ₽</span>
+              </div>
+              <p class="item__text">Бережно помоем вашу водную технику, уберём водный камень, наведём марафет к&nbsp;сезону или, наоборот, подготовим к&nbsp;зимовке.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="group">
+          <h3 class="group__title">Кузов и салон</h3>
+          <ul class="list">
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Полировка</h4>
+                <span class="item__price">25 000 ₽</span>
+              </div>
+              <p class="item__text">Устраняем мелкие царапины с&nbsp;лакокрасочного покрытия. Перед процедурой тщательно готовим кузов: моем, удаляем битум и&nbsp;металлические вкрапления. В&nbsp;среднем работа занимает 3&nbsp;дня.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Керамика</h4>
+                <span class="item__price">20 000 ₽</span>
+              </div>
+              <p class="item__text">После нанесения защитного состава лакокрасочное покрытие становится идеально глянцевым, появляется красивый блеск и&nbsp;насыщенность цвета.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Химчистка салона</h4>
+                <span class="item__price">15 000 ₽</span>
+              </div>
+              <p class="item__text">Со&nbsp;съёмом салона и&nbsp;уборкой багажника. Глубокая очистка всех поверхностей от&nbsp;загрязнений, пятен и&nbsp;пыли специальными средствами и&nbsp;инструментами.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Шумоизоляция</h4>
+                <span class="item__price">25 000 ₽</span>
+              </div>
+              <p class="item__text">Частичная и&nbsp;полная шумоизоляция от&nbsp;посторонних звуков.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="group">
+          <h3 class="group__title">Оклейка и&nbsp;тонировка</h3>
+          <ul class="list">
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Оклейка антигравийной плёнкой</h4>
+                <span class="item__price">200 000 ₽</span>
+              </div>
+              <p class="item__text">Полная оклейка кузова в&nbsp;антигравийную полиуретановую плёнку с&nbsp;глянцевым или матовым эффектом.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Оклейка элементов салона</h4>
+                <span class="item__price">13 000 ₽</span>
+              </div>
+              <p class="item__text">Защитим глянцевые элементы салона и&nbsp;экраны.</p>
+            </li>
+            <li class="item">
+              <div class="item__head">
+                <h4 class="item__name">Тонирование</h4>
+                <span class="item__price">2 000 ₽</span>
+              </div>
+              <p class="item__text">Тонирование стёкол обычной и&nbsp;атермальной плёнкой.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="wrap">
+        <div class="rating">
+          <h2 class="section-title" id="reviews-title">У&nbsp;нас высокий рейтинг</h2>
+          <div class="rating__score">
+            <span class="rating__value">4,7</span>
+            <div class="rating__meta">
+              <span class="stars" style="--fill: 94%" role="img" aria-label="4,7 из 5">★★★★★</span>
+              <span class="rating__source">79 оценок на&nbsp;Яндекс Картах</span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="review-list">
+          <li class="review">
+            <div class="review__head">
+              <span class="review__avatar"><img src="img/reviews/r1-avatar.png" alt="" width="44" height="44"></span>
+              <div>
+                <p class="review__name">Александр К</p>
+                <p class="review__level">Знаток города 4 уровня</p>
+              </div>
+            </div>
+            <p class="review__meta">
+              <span class="review__stars" role="img" aria-label="Оценка 5 из 5">★★★★★</span>
+              <time datetime="2025-11-02">2 ноября 2025</time>
+            </p>
+            <blockquote class="review__text">Пригонял к&nbsp;ребятам 3&nbsp;автомобиля, на&nbsp;комплекс работ, мойка двигателя, полировка с&nbsp;керамикой и&nbsp;химчистка авто, на&nbsp;одном из&nbsp;автомобилей делал еще детейлинг мойку подвеску, ребята…</blockquote>
+            <a class="review__full" href="https://yandex.ru/maps/org/daytona/16808279642/reviews/" target="_blank" rel="noopener">Читать полностью</a>
+            <ul class="review__photos">
+              <li><img src="img/reviews/r1-photo1.png" alt="Белый седан после работ" width="86" height="86" loading="lazy"></li>
+              <li><img src="img/reviews/r1-photo2.png" alt="Чёрный внедорожник у бокса" width="86" height="86" loading="lazy"></li>
+              <li><img src="img/reviews/r1-photo3.png" alt="Тёмный седан у бокса" width="68" height="86" loading="lazy"></li>
+            </ul>
+          </li>
+          <li class="review">
+            <div class="review__head">
+              <span class="review__avatar"><img src="img/reviews/r2-avatar.png" alt="" width="42" height="42"></span>
+              <div>
+                <p class="review__name">Эдуард Носов</p>
+                <p class="review__level">Знаток города 4 уровня</p>
+              </div>
+            </div>
+            <p class="review__meta">
+              <span class="review__stars" role="img" aria-label="Оценка 5 из 5">★★★★★</span>
+              <time datetime="2025-10-27">27 октября 2025</time>
+            </p>
+            <blockquote class="review__text">Обратился к&nbsp;ребятам по&nbsp;рекомендации. Заказал большой фронт работ. Полная оклейка кузова в&nbsp;цветную пленку (машина была белая), хим чистка салона, перешив руля, окраска дисков, мойка…</blockquote>
+            <a class="review__full" href="https://yandex.ru/maps/org/daytona/16808279642/reviews/" target="_blank" rel="noopener">Читать полностью</a>
+            <ul class="review__photos">
+              <li><img src="img/reviews/r2-photo1.png" alt="Внедорожник после оклейки, вид спереди" width="86" height="86" loading="lazy"></li>
+              <li><img src="img/reviews/r2-photo2.png" alt="Внедорожник после оклейки, вид сбоку" width="86" height="86" loading="lazy"></li>
+            </ul>
+          </li>
+          <li class="review">
+            <div class="review__head">
+              <span class="review__avatar"><img src="img/reviews/r3-avatar.png" alt="" width="44" height="44"></span>
+              <div>
+                <p class="review__name">Alexey Z</p>
+                <p class="review__level">Знаток города 30 уровня</p>
+              </div>
+            </div>
+            <p class="review__meta">
+              <span class="review__stars" role="img" aria-label="Оценка 5 из 5">★★★★★</span>
+              <time datetime="2026-07-05">5 июля</time>
+            </p>
+            <blockquote class="review__text">Спасибо команде за&nbsp;отличную работу. Химчистка на&nbsp;ура! Сергей, спасибо за&nbsp;коммуникацию и&nbsp;чёткость. Планируем обращаться к&nbsp;ребят и&nbsp;в&nbsp;дальнейшем.</blockquote>
+            <ul class="review__photos">
+              <li><img src="img/reviews/r3-photo1.png" alt="Белый кроссовер у бокса" width="86" height="86" loading="lazy"></li>
+            </ul>
+          </li>
+        </ul>
+
+        <a class="reviews__more" href="https://yandex.ru/maps/org/daytona/16808279642/reviews/" target="_blank" rel="noopener">Все отзывы на&nbsp;Яндекс Картах</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© 2026 Daytona</span>
+      <span>Удалим все личные данные по&nbsp;первому же&nbsp;запросу</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
